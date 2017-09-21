@@ -1,0 +1,38 @@
+title: Zones contrôlées par le groupe État islamique
+
+[legend]
+name: Territoires contrôlés par l’EI
+color: #7d878c
+
+name: Autres forces
+color: #e8e2df
+
+name: Zones peu peuplées
+color: #ffffff
+[]
+
+[tabs]
+
+image: image-1-FR-300.png
+image_md: image-1-FR-600.png
+props.name: Janvier 2015
+
+image: image-2-FR-300.png
+image_md: image-2-FR-600.png
+props.name: Janvier 2016
+
+image: image-3-FR-300.png
+image_md: image-3-FR-600.png
+props.name: Janvier 2017
+
+image: image-4-FR-300.png
+image_md: image-4-FR-600.png
+props.name: Septembre 2017
+
+[]
+
+sources: Sources : IHS Markit
+
+lastUpdate.key: Dernière mise à jour:
+lastUpdate.value: 11/09/2017 18:00:00
+lang: fr

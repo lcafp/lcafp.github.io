@@ -1,0 +1,38 @@
+title: Islamic State group in retreat
+
+[legend]
+name: Controlled by IS group
+color: #7d878c
+
+name: Other forces
+color: #e8e2df
+
+name: Underpopulated zones
+color: #ffffff
+[]
+
+[tabs]
+
+image: image-1-EN-300.png
+image_md: image-1-EN-600.png
+props.name: January 2015
+
+image: image-2-EN-300.png
+image_md: image-2-EN-600.png
+props.name: January 2016
+
+image: image-3-EN-300.png
+image_md: image-3-EN-600.png
+props.name: January 2017
+
+image: image-4-EN-300.png
+image_md: image-4-EN-600.png
+props.name: September 2017
+
+[]
+
+sources: Sources: IHS Markit
+
+lastUpdate.key: Last update:
+lastUpdate.value: 09/11/2017 18:00:00
+lang: en
