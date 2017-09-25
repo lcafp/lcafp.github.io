@@ -16,6 +16,9 @@
 <body>
     <!-- The main app -->
     <div id="app">
+      <div class="loader" v-if="!loaded">
+      </div>
+      <div class="loaded" v-else>
         <header>
             <h1>{{ story.title }}</h1>
             <h2>{{ story.subhead }}</h2> 
@@ -25,11 +28,12 @@
             <credits :lang="story.lang" :lastupdate="story.lastUpdate" :sources="story.sources"></credits>
             <logo></logo>
         </footer>
+      </div>
     </div>
 
     <!-- Vendor scripts -->
     <script src="https://graphics.afpforum.com/vendors/pym/pym.v1.min.js"></script>
-    <script src="./vendor/vue/vue.js"></script>
+    <script src="./vendor/vue/vue.min.js"></script>
     <script src="./vendor/vue/httpVueLoader.js"></script>
     <script src="./vendor/vue/vue-resource.min.js"></script>
     <script src="./vendor/vue/vue-router.js"></script>
@@ -37,7 +41,7 @@
     <script src="./vendor/jquery/jquery-3.2.1.min.js"></script>
 
     <!-- Your script here -->
-    <script src="app.js"></script>
+    <script src="app.min.js"></script>
 </body>
 
 </html>
