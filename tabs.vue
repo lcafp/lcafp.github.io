@@ -18,7 +18,7 @@
 
 <script>
   module.exports = {
-    data() {
+    data: function data() {
       return {
         current: 0,
         size: null
@@ -26,25 +26,25 @@
     },
     props: ['items'],
     computed: {
-      currentItem() {
+      currentItem: function currentItem() {
         return this.items[this.current]
       },
-      currentImageSize() {
+      currentImageSize: function currentImageSize() {
         return 'image'
       },
-      currentImage() {
+      currentImage: function currentImage() {
         return 'assets/' + this.currentItem[this.currentImageSize]
       }
     },
-    mounted() {
+    mounted: function mounted() {
       this.resize()
       window.onresize = this.resize
     },
     methods: {
-      resize() {
+      resize: function resize() {
         this.size = this.$el.getBoundingClientRect()
       },
-      switchItem(i) {
+      switchItem: function switchItem(i) {
         this.current = i
       }
     }

@@ -12,7 +12,8 @@ nav ul {
   max-width: 300px;
 }
 nav ul li {
-  width: 100%;
+  flex: 1;
+  max-width: 60px;
   text-align: center;
   cursor: pointer;
   font-size: 15px;
