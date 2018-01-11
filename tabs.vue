@@ -10,7 +10,8 @@
     <main>
       <img :src="currentImage" />
       <h3>{{ currentItem.props.title }}</h3>
-      <p> {{ currentItem.props.description }}</p>
+      <p class="name"> {{ currentItem.props.description }}</p>
+      <p> {{ currentItem.props.text }}</p>
     </main>
     
   </div> 
